@@ -106,7 +106,6 @@ android {
         resValue "string", "gamepot_push_default_channel","Default"       // required (fcm)
         resValue "string", "facebook_app_id", ""                          // optional (facebook)
         resValue "string", "fb_login_protocol_scheme", "fb"               // optional (facebook)
-		resValue "string", "gamepot_gpg_id", ""
 
 			// resValue "string", "gamepot_project_id", "" 								   		// required
  			// resValue "string", "gamepot_api_url", "" 									   	 	// required (공백값으로 유지해주세요.)

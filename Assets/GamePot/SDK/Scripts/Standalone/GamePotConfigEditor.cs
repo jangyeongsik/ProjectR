@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.IO;
 
-#if UNITY_EDITOR && UNITY_STANDALONE
+#if UNITY_EDITOR || UNITY_STANDALONE
 using GamePotUnity.Standalone;
 using GamePotUnity.Standalone.Networking;
 using UnityEditor;

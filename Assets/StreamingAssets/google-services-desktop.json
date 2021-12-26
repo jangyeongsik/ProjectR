@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899191192945",
+    "project_id": "projectr-34be8",
+    "storage_bucket": "projectr-34be8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899191192945:android:9ea03afc4c7fb192900ad0",
+        "android_client_info": {
+          "package_name": "com.siga.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899191192945-hedqjslts8ao9ofuibshg8lhcfpudjhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuP5Ul98W9eEzdT3qGJjB73m9esi9BKHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899191192945-hedqjslts8ao9ofuibshg8lhcfpudjhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
