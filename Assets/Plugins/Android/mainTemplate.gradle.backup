@@ -42,7 +42,7 @@ it.setProperty("android.enableJetifier", true)
 }
 }
 
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 dependencies {
 	// if (GradleVersion.current() >= GradleVersion.version("4.2")) {
@@ -86,12 +86,11 @@ android {
 	}
 
 	defaultConfig {
-consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
 		minSdkVersion **MINSDKVERSION**
 		targetSdkVersion **TARGETSDKVERSION**
 		multiDexEnabled true
 
-		
+		applicationId '**APPLICATIONID**'
         versionCode **VERSIONCODE**
         versionName '**VERSIONNAME**'
 
@@ -151,5 +150,5 @@ consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
 			**SIGNCONFIG**
 		}
 	}
-	**PACKAGING_OPTIONS**
+	**PACKAGING_OPTIONS****SPLITS**
 }
