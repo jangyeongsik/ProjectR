@@ -43,7 +43,7 @@ android {
         versionName '**VERSIONNAME**'
         multiDexEnabled true
 
-        resValue "string", "gamepot_project_id", "gamepot_project_id", "0e05d5db-e7b8-429f-a1b8-86b144fd5c06" 									   // required
+        resValue "string", "gamepot_project_id", "" 									   // required
  		resValue "string", "gamepot_api_url", "" 										   	 // required (공백값으로 유지해주세요.)
    		resValue "string", "gamepot_dash_url", "" 										   // required (공백값으로 유지해주세요.)
    		resValue "string", "gamepot_store", "google" 									 // required
